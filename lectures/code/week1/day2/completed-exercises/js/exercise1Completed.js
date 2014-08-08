@@ -9,9 +9,7 @@ app.controller('formCtrl', function ($scope) {
 	$scope.regex.postcode = /^\d{3} \d{2}$/;
 	$scope.maxDate = new Date(new Date().setDate(new Date().getDate() - 6570));
 	$scope.sendForm = function () {
-		for (var property in $scope.formData) {
-			$scope.result[property] = $scope.formData[property];
-		}
+		$scope.result = angular.copy($scope.formData);
 		$scope.formData = {};
 		$scope.testForm.$setPristine(true);
 	};
