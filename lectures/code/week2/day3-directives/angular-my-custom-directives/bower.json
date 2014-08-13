@@ -1,12 +1,11 @@
 {
-  "name": "angular-custom-filters",
+  "name": "angular-my-custom-directives",
   "version": "0.0.1",
-  "homepage": "https://github.com/tablackmore/angular-custom-filters",
   "authors": [
     "Tom Blackmore <tablackmore@gmail.com>"
   ],
-  "description": "A set of custom filters for angularjs",
-  "main": "src/angular-custom-filters.js",
+  "description": "A set of custom directives for angularjs",
+  "main": "src/angular-my-custom-directives.js",
   "moduleType": [
     "globals"
   ],
@@ -22,10 +21,10 @@
   ],
   "dependencies": {
     "angularjs": "~1.2.21",
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0"
   },
   "devDependencies": {
-    "angular-mocks": "~1.2.21",
-    "bootstrap": "~3.2.0"
+    "angular-mocks": "~1.2.21"
   }
 }

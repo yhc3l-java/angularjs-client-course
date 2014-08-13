@@ -1,5 +1,5 @@
 {
-  "name": "angular-custom-filters",
+  "name": "angular-my-custom-directives",
   "version": "0.0.1",
   "description": "",
   "main": " .",
@@ -12,14 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tablackmore/angular-custom-filters.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tablackmore/angular-custom-filters/issues"
   },
-  "homepage": "https://github.com/tablackmore/angular-custom-filters",
   "devDependencies": {
     "karma": "^0.12.21",
     "karma-jasmine": "^0.1.5",
