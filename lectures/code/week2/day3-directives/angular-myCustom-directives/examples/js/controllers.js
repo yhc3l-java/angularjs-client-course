@@ -19,5 +19,5 @@ angular.module('myExampleApp')
 		}];
 		$scope.alertName = function (person) {
 			alert('Hi ' + person.firstname);
-		}
+		};
 	});

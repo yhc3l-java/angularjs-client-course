@@ -18,11 +18,13 @@
 		
 			<input ng-model="searchText"/>
 			<div ng-repeat="person in people |filter:{ firstname: searchText }">
-			<h3 ng-click="alertName(person)">{{ person.firstname }} {{ person.surname }}</h3>
-			<ul>
-			<li> age: {{ person.age }} </li>
-			<li> occupation {{ person.occupation }}
-			</ul>
+				<div>
+					<h3 ng-click="alertName(person)">{{ person.firstname }} {{ person.surname }}</h3>
+					<ul>
+						<li> age: {{ person.age }} </li>
+						<li> occupation {{ person.occupation }}</li>
+					</ul>
+				</div>
 			</div>
 			
 			<div>
